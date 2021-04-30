@@ -1,0 +1,51 @@
+FROM --platform=${TARGETPLATFORM:-linux/amd64} ghcr.io/openfaas/of-watchdog:0.8.4 as watchdog
+FROM --platform=${TARGETPLATFORM:-linux/amd64} node:12-alpine as ship
+
+ARG TARGETPLATFORM
+ARG BUILDPLATFORM
+
+COPY --from=watchdog /fwatchdog /usr/bin/fwatchdog
+RUN chmod +x /usr/bin/fwatchdog
+
+RUN apk --no-cache add curl ca-certificates \
+    && addgroup -S app && adduser -S -g app app
+
+# Turn down the verbosity to default level.
+ENV NPM_CONFIG_LOGLEVEL warn
+
+RUN chmod 777 /tmp
+
+USER app
+RUN mkdir -p /home/app/function
+
+WORKDIR /home/app
+
+COPY package.json ./
+
+RUN npm i
+
+COPY index.js ./
+
+WORKDIR /home/app/function
+COPY function/*.json ./
+
+RUN npm i
+
+COPY function/ ./
+
+WORKDIR /home/app/
+
+ENV cgi_headers="true"
+ENV fprocess="node index.js"
+ENV mode="http"
+ENV upstream_url="http://127.0.0.1:3000"
+
+ENV exec_timeout="10s"
+ENV write_timeout="15s"
+ENV read_timeout="15s"
+
+ENV prefix_logs="false"
+
+HEALTHCHECK --interval=3s CMD [ -e /tmp/.lock ] || exit 1
+
+CMD ["fwatchdog"]
