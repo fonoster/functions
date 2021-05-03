@@ -24,7 +24,13 @@ COPY package.json ./
 
 RUN npm i
 
-COPY index.js ./
+COPY index.ts ./
+
+COPY utils utils
+
+COPY tsconfig.json ./
+
+COPY types.ts ./
 
 WORKDIR /home/app/function
 COPY function/*.json ./
@@ -36,7 +42,7 @@ COPY function/ ./
 WORKDIR /home/app/
 
 ENV cgi_headers="true"
-ENV fprocess="node index.js"
+ENV fprocess="npm run start"
 ENV mode="http"
 ENV upstream_url="http://127.0.0.1:3000"
 
