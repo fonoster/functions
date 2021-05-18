@@ -1,6 +1,6 @@
 {
-  "name": "openfaas-node12",
-  "version": "1.0.0",
+  "name": "node12fn",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "ts-node index.ts"
   },
   "keywords": [],
-  "author": "OpenFaaS Ltd",
+  "author": "Fonoster Team",
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.2.17",
