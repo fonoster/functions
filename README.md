@@ -1,4 +1,4 @@
-# Fonos Functions templates
+# Fonos Functions Templates
 
 <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a> <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license: MIT"></a>
 
@@ -8,8 +8,12 @@ This repository contains a list of available templates to support Fonos Function
 
 Functions Templates
 
+| Name        | Language | Version | Linux base | Link
+|-------------|----------|---------|------------|------
+| node12 | NodeJS | 12 | Alpine Linux | [NodeJS template](https://github.com/fonoster/fonos-functions/tree/master/templates/node12)
+
 | Name | Language | Version | Linux base | Link
-|:-----|:---------|:--------|:-----------|:---------|:----
+|:-----|:---------|:--------|:-----------|:---------
 | node12 | NodeJS | 12 | Alpine Linux | [NodeJS template](https://github.com/fonoster/fonos-functions/tree/master/templates/node12)
 
 ## Contributing
