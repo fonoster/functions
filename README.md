@@ -1,1 +1,1 @@
-# Functions template
+# Functions templates
