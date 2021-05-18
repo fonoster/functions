@@ -10,7 +10,7 @@ Functions Templates
 
 | Name        | Language | Version | Linux base | Link
 |-------------|----------|---------|------------|------
-| node14 | NodeJS | 12 | Alpine Linux | [NodeJS template](https://github.com/fonoster/fonos-functions/tree/master/templates/node12)
+| node12 | NodeJS | 12 | Alpine Linux | [NodeJS template](https://github.com/fonoster/fonos-functions/tree/master/templates/node12)
 | node14 | NodeJS | 14 | Alpine Linux | [NodeJS template](https://github.com/fonoster/fonos-functions/tree/master/templates/node14)
 
 ## Contributing
