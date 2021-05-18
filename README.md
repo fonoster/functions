@@ -4,7 +4,7 @@
 
 This repository contains a list of available templates to support Fonos Functions. 
 
-> Fonos Functions subsystem is backed by OpenFaaS (by [Alex Ellis](https://github.com/alexellis))
+> Fonos Functions subsystem runs OpenFaaS (by [Alex Ellis](https://github.com/alexellis))
 
 Functions Templates
 
