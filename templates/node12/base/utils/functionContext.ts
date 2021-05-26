@@ -28,7 +28,7 @@ export default class FunctionContext {
         return this;    
     }
 
-    succeed(value:number) {
+    succeed(value:object) {
         let err;
         this.cbCalled++;
         this.cb(err, value);
