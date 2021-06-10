@@ -6,6 +6,7 @@
       "outDir": "./build",
       "esModuleInterop": true,
       "strict": true,
-      "allowJs": true
+      "allowJs": true,
+      "noImplicitAny": false    
     }
   }
