@@ -1,7 +1,7 @@
 {
   "name": "node12fn",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Function template node12",
   "main": "index.js",
   "scripts": {
     "build": "tsc --project ./",
