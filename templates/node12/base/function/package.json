@@ -1,8 +1,8 @@
 {
     "name": "fonos-function",
     "version": "1.0.0",
-    "description": "Fonos Function",
-    "main": "handler.js",
+    "description": "Cloud function",
+    "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 0"
     },
