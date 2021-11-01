@@ -1,10 +1,10 @@
-# Fonos Functions Templates
+# Functions Templates
 
 <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a> <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license: MIT"></a>
 
-This repository contains a list of available templates to support Fonos Functions. 
+This repository contains a list of available templates to support Fonoster Functions. 
 
-> Fonos Functions subsystem runs OpenFaaS (by [Alex Ellis](https://github.com/alexellis))
+> Fonoster Functions subsystem runs OpenFaaS (by [Alex Ellis](https://github.com/alexellis))
 
 Functions Templates
 
