@@ -10,8 +10,8 @@ Functions Templates
 
 | Name        | Language | Version | Linux base | Link
 |-------------|----------|---------|------------|------
-| node12 | NodeJS | 12 | Alpine Linux | [NodeJS template](https://github.com/fonoster/fonos-functions/tree/master/templates/node12)
-| node14 | NodeJS | 14 | Alpine Linux | [NodeJS template](https://github.com/fonoster/fonos-functions/tree/master/templates/node14)
+| node12 | NodeJS | 12 | Alpine Linux | [NodeJS template](https://github.com/fonoster/functions/tree/master/templates/node12)
+| node14 | NodeJS | 14 | Alpine Linux | [NodeJS template](https://github.com/fonoster/functions/tree/master/templates/node14)
 
 ## Contributing
 
@@ -21,7 +21,7 @@ Please read [CONTRIBUTING.md](https://github.com/fonoster/fonos/blob/master/CONT
 
 - [Pedro Sanders](https://github.com/psanders)
 
-See also the list of contributors who [participated](https://github.com/fonoster/fonos-functions/contributors) in this project.
+See also the list of contributors who [participated](https://github.com/fonoster/functions/contributors) in this project.
 
 ## License
 
