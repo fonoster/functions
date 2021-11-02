@@ -1,5 +1,5 @@
 {
-    "name": "fonos-function",
+    "name": "function",
     "version": "1.0.0",
     "description": "Cloud function",
     "main": "index.js",
@@ -7,6 +7,6 @@
       "test": "echo \"Error: no test specified\" && exit 0"
     },
     "keywords": [],
-    "author": "Fonoste Inc",
+    "author": "Fonoster Inc",
     "license": "MIT"
   }

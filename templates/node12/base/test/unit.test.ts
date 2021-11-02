@@ -3,7 +3,7 @@ import chaiHttp = require('chai-http');
 chai.use(chaiHttp);
 const app = require('../index');
 
-describe("@fonos/functions", () => {
+describe("@fonoster/functions", () => {
 
     before(async () => {
 

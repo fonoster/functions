@@ -1,7 +1,7 @@
 {
-    "name": "fonos-function",
+    "name": "function",
     "version": "1.0.0",
-    "description": "Fonos Function",
+    "description": "Fonoster Function",
     "main": "handler.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 0"
